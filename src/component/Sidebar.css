@@ -4,11 +4,11 @@
     align-items: center;
     width: 60px;
     height: 100vh;
-    background-color: #f5f3f3;
-    border:1px solid black;
+    background-color: #f6f3f3f7;
+ 
   }
   .cube {
-    margin-top: 20px;
+    margin-top: 10px;
     color: blue;
     padding-bottom: 20px;
   }
@@ -19,20 +19,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1px 0;
+    margin: 8px 0;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    color: #666;
+    color: #9a9a9a;
     transition: background 0.3s ease, color 0.3s ease;
   }
   
   .sidebar-item.active {
-    background-color: #e0ebff;
-    color: #2d6ff7;
+    background-color: #e7eaee;
+    color: #0d5af4;
   }
   .set {
-    margin-top: 280px;
-    color: rgb(120, 120, 120);
+    margin-top: 260px;
+    color: #a0a0a0;
   } 
   
