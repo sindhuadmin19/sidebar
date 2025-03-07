@@ -6,13 +6,13 @@ import { FiPieChart } from "react-icons/fi";
 import { LuClipboardList } from "react-icons/lu";
 import { CgProfile } from "react-icons/cg";
 import { IoSettingsOutline } from "react-icons/io5";
-import { PiSquaresFourLight } from "react-icons/pi";
+import { RxDashboard } from "react-icons/rx";
 
 const Sidebar = () => {
   const [active, setActive] = useState(1);
 
   const menuItems = [
-    { id: 1, icon: <PiSquaresFourLight size={"30px"} /> },
+    { id: 1, icon: <RxDashboard  size={"23px"} /> },
     { id: 2, icon: <CiDeliveryTruck size={"30px"} /> },
     { id: 3, icon: <FiPieChart size={"25px"} /> },
     { id: 4, icon: <LuClipboardList size={"25px"} /> },
@@ -23,7 +23,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="cube">
         <div className="cube">
-          <FaCube size={"45px"} />
+          <FaCube size={"35px"} />
         </div>
       </div>
       {menuItems.map((item) => (

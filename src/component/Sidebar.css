@@ -4,7 +4,7 @@
     align-items: center;
     width: 60px;
     height: 100vh;
-    background-color: #f6f3f3f7;
+    background-color: #f0efeff7;
  
   }
   .cube {
@@ -23,16 +23,16 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    color: #9a9a9a;
+    color: #a4a4a4;
     transition: background 0.3s ease, color 0.3s ease;
   }
   
   .sidebar-item.active {
-    background-color: #e7eaee;
+    background-color: #e7e9ed;
     color: #0d5af4;
   }
   .set {
     margin-top: 260px;
-    color: #a0a0a0;
+    color: #9d9d9d;
   } 
   
