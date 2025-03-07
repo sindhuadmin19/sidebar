@@ -1,0 +1,38 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    height: 100vh;
+    background-color: #fff;
+    border:1px solid black;
+  }
+  .cube {
+    margin-top: 20px;
+    color: blue;
+    padding-bottom: 20px;
+  }
+  
+  .sidebar-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .sidebar-item.active {
+    background-color: #e0ebff;
+    color: #2d6ff7;
+  }
+  .set {
+    margin-top: 280px;
+    color: rgb(120, 120, 120);
+  } 
+  
